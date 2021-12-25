@@ -4,12 +4,12 @@ import React from 'react';
 
 function Index() {
   const columns = [
-    { title: 'A', width: 300, key: 'a', dataIndex: 'a', fixed: 'left' },
+    { title: 'A', width: 300, key: 'a', dataIndex: 'a', fixed: 'left' as const },
     { title: 'B', width: 300, key: 'b', dataIndex: 'b' },
     { title: 'C', width: 300, key: 'c', dataIndex: 'c' },
     { title: 'D', width: 300, key: 'd', dataIndex: 'd' },
     { title: 'E', width: 300, key: 'e', dataIndex: 'e' },
-    { title: 'F', width: 300, key: 'f', dataIndex: 'f', fixed: 'right' },
+    { title: 'F', width: 300, key: 'f', dataIndex: 'f', fixed: 'right' as const },
   ];
   const data = [
     { a: 1, b: 1, c: 1, d: 1, e: 1, f: 1 },
